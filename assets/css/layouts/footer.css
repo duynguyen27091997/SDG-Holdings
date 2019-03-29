@@ -1,0 +1,125 @@
+@import "basic.css";
+@import "../components/footer-social.css";
+@import "../components/footer-new.css";
+#goTop{
+    cursor: pointer;
+    position: fixed;
+    width: 40px;
+    height: 40px;
+    right: 40px;
+    bottom: 40px;
+    z-index: 30;
+    background: var(--color-main);
+    color: #ffffff;
+    font-size: 30px;
+    text-align: center;
+    line-height: 40px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    border-radius: 10px;
+    border: 2px solid;
+    transition: .3s linear;
+    -webkit-transform: translateZ(0);
+    -webkit-backface-visibility: hidden;
+}
+#goTop:hover{
+    background-color:#ffffff;
+    color: var(--color-main);
+    transform: translateY(-3px);
+}
+footer{
+    background: #212121;
+    color: #ffffff;
+    padding: 40px 20px 0 20px;
+}
+footer .footer__copyright{
+    border-top: 1px solid #747678;
+    font-size: 13px;
+}
+footer .footer__menu>div{
+    padding-bottom: 30px;
+}
+footer .footer__menu>div h4 {
+    padding: 7px 10px;
+    border-radius: 5px;
+    text-transform: uppercase;
+}
+footer .footer__menu>div li{
+    padding: 5px;
+    cursor: pointer;
+    position: relative;
+    transition: .3s;
+    color: #ccc;
+    font-family: open-light,sans-serif;
+}
+
+footer h4{
+    font-family: open-bold,sans-serif;
+    font-size: 18px;
+    cursor: pointer;
+    width: 90%;
+    transition: .3s;
+}
+footer h4:hover{
+    width: 100%;
+}
+footer .footer__menu>div li:hover{
+    transform: translateX(5px);
+    color: var(--color-main);
+
+}
+.footer__address{
+    padding: 20px;
+    width: 100%;
+    position: relative;
+    background: #ffffff;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+    color: #1b1e21;
+}
+.footer__address img{
+    width: 127px;
+    float: left;
+    padding: 15px;
+
+}
+.footer__address p{
+    color: #1b1e21;
+    padding-left: 7px;
+    padding-top: 20px;
+}
+.footer__address span{
+    height: 50px;
+    line-height: 50px;
+    text-align: center;
+    display: inline-block;
+    cursor: pointer;
+    padding: 0 40px;
+    border: 1px solid;
+    margin: 0 1px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+    color: var(--color-main);
+    background: #ffffff;
+}
+@media only screen and (max-width: 576px) {
+    .footer__address span{
+         padding: 0 20px;
+    }
+    }
+.footer__hot-line:hover span{
+    transition: .3s linear;
+    background: var(--color-second);
+    bottom: 0;
+    color: #ffffff;
+    transform-origin: right;
+}
+.footer__hot-line:hover span:nth-child(2) i{
+    transition:transform .3s ease;
+    transform: rotate(360deg);
+}
+footer .footer__hot-line{
+    position: relative;
+}

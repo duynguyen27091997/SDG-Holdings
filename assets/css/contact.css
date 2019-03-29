@@ -1,0 +1,29 @@
+@import "./layouts/basic.css";
+@import "./layouts/header.css";
+@import "./layouts/footer.css";
+main h3{
+    padding: 5px 35px;
+    background: var(--color-second);
+    color: #ffffff;
+    display: inline-block;
+    width: auto;
+}
+main p{
+    color: #ffffff;
+    padding: 5px 25px;
+    background: var(--color-main);
+}
+.map{
+    height: 640px;
+    width: 100%;
+}
+
+@media screen and (max-width: 991px) {
+    h3.display-4{
+           font-size: 30px;
+       }
+
+    .map{
+        height: 500px;
+    }
+}

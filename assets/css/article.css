@@ -1,0 +1,94 @@
+@import "./layouts/basic.css";
+@import "./layouts/header.css";
+@import "./layouts/footer.css";
+@import "./components/new.css";
+@import "./components/feature.css";
+.header__new img{
+    height: 500px;
+}
+.header__new .new__info{
+    padding: 0 60px;
+    font-size: 24px;
+}
+.header__new .new__info h6{
+    font-size: 24px;
+}
+.header__new .new__info h5{
+    font-size: 26px;
+}
+.header__new .new__info p{
+    font-size: 18px;
+}
+.header__new:hover img {
+    -webkit-transform: scale(1.4) rotate(5deg);
+    -moz-transform: scale(1.4) rotate(5deg);
+    -ms-transform: scale(1.4) rotate(5deg);
+    -o-transform: scale(1.4) rotate(5deg);
+    transform: scale(1.4) rotate(5deg);
+}
+/*css detail*/
+.detail__title{
+    line-height: 1.25em;
+    text-transform: uppercase;
+    font-family: open-bold,sans-serif;
+}
+.detail .footer__social ul li {
+    box-sizing: border-box;
+    list-style-type: none;
+    height: 50px;
+    margin-bottom: 5px;
+    display: inline-block;
+}
+.detail .footer__social ul li a:before{
+    transform: scaleX(1);
+}
+.detail .footer__social ul li:hover{
+    opacity: .7;
+}
+.detail .footer__social ul li a{
+    border: none    ;
+}
+.detail .text-bold{
+    font-family: open-bold,sans-serif;
+}
+.detail p {
+margin: 7px 0;
+}
+.detail__tag ul{
+    display: flex;
+    width: 100%;
+}
+.detail__tag ul li {
+    padding: 3px 10px;
+    color: #5a6268;
+    border: 1px solid;
+    margin: 3px 1px;
+    cursor: pointer;
+}
+.detail__tag ul li:hover {
+    background: var(--color-main);
+    color: #ffffff;
+}
+.detail__more{
+    flex-flow: wrap;
+}
+.detail__more .new{
+    font-size: 17px;
+    height: 222px;
+    margin-bottom: 15px;
+}
+
+.detail__more .new__info h5{
+    font-size: 16px;
+}
+.detail__more .new__info span{
+    font-size: 12px;
+}
+
+.detail__more .new__info-title h6{
+    font-size: 15px;
+}
+h6 time{
+    margin-left: 30px;
+}
+

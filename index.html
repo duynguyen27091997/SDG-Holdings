@@ -1,0 +1,513 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>SDG - Holding</title>
+    <link rel="icon" href="./assets/img/icon.ico">
+    <link rel="stylesheet" href="./vendors/css/normalize.css">
+    <link rel="stylesheet" href="./vendors/css/bootstrap.css">
+    <link rel="stylesheet" href="vendors/css/line-awesome.css">
+    <link rel="stylesheet" href="./assets/css/index.css">
+
+</head>
+<body>
+<!--phần header-->
+<header class="header">
+     <!--phần menu top-->
+    <div class="header__top">
+        <div class="container-fluid">
+            <div class="row">
+                <!--phần menu header-->
+                <div class="col-xl-5 header__menu">
+                    <ul class="nav justify-content-around">
+                        <!--link trang hien tai-->
+                        <li class="nav-item active current">
+                            <a class="nav-link " href="#">TRANG CHỦ</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">GIỚI THIỆU</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">NGHÀNH NGHỀ CHÍNH</a>
+                            <ul class="nav">
+                                <li class="nav-item"><a href="" class="text-decoration-none">Xậy dựng – Bất động sản</a></li>
+                                <li class="nav-item"><a href="" class="text-decoration-none">Thương mại – Sản xuất</a></li>
+                                <li class="nav-item"><a href="" class="text-decoration-none">SDG LIFE</a></li>
+                                <li class="nav-item"><a href="" class="text-decoration-none">Truyền thông – Sự kiện</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+
+                </div>
+                <!--phần logo-->
+                <div class="col-lg-2 header__logo"><img src="./assets/img/logo.jpg" alt=""></div>
+                <!--hết phần logo-->
+                <!--phần menu header-->
+                <div class="col-xl-5 header__menu">
+                    <ul class="nav justify-content-around">
+                        <li class="nav-item">
+                            <a class="nav-link active" href="#">DỰ ÁN</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">TIN TỨC</a>
+                            <ul class="nav">
+                                <li class="nav-item"><a href="" class="text-decoration-none">Xậy dựng – Bất động sản</a></li>
+                                <li class="nav-item"><a href="" class="text-decoration-none">Thương mại – Sản xuất</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">LIÊN HỆ</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="header__dropdown"><i class="la la-navicon"></i></div>
+            </div>
+        </div>
+    </div>
+    <!--hết phần menu top-->
+    <!--phần menu sidebar (phần này tách riêng ra 1 menu nữa)-->
+    <div class="header__bg-md">
+        <div class="header__list-right">
+            <ul class="nav justify-content-around">
+                <!--link trang hien tai-->
+                <li class="nav-item active current">
+                    <a class="nav-link " href="#">TRANG CHỦ</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">GIỚI THIỆU</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">NGHÀNH NGHỀ CHÍNH</a>
+                    <ul class="nav lv2">
+                        <li class="nav-item"><a href="" class="text-decoration-none">Xậy dựng – Bất động sản</a></li>
+                        <li class="nav-item"><a href="" class="text-decoration-none">Thương mại – Sản xuất</a></li>
+                        <li class="nav-item"><a href="" class="text-decoration-none">SDG LIFE</a></li>
+                        <li class="nav-item"><a href="" class="text-decoration-none">Truyền thông – Sự kiện</a>
+                            <ul class="nav lv2">
+                                <li class="nav-item"><a href="" class="text-decoration-none">Xậy dựng – Bất động sản</a></li>
+                                <li class="nav-item"><a href="" class="text-decoration-none">Thương mại – Sản xuất</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                    <i class="la la-angle-down"></i>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link active" href="#">DỰ ÁN</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">TIN TỨC</a>
+                    <ul class="nav lv2">
+                        <li class="nav-item"><a href="" class="text-decoration-none">Xậy dựng – Bất động sản</a>
+                            <ul class="nav lv2">
+                                <li class="nav-item"><a href="" class="text-decoration-none">Xậy dựng – Bất động sản</a></li>
+                                <li class="nav-item"><a href="" class="text-decoration-none">Thương mại – Sản xuất</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item"><a href="" class="text-decoration-none">Thương mại – Sản xuất</a></li>
+                    </ul>
+                    <i class="la la-angle-down"></i>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">LIÊN HỆ</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+    <!--hết phần menu sidebar-->
+    <!--phần support sidebar-->
+    <div class="header__support">
+        <ul>
+            <li data-text="Facebook"><img src="./vendors/img/img-icon/facebook-icon.svg" alt=""></li>
+            <li data-text="Twitter"><img src="./vendors/img/img-icon/twitter-3.svg" alt=""></li>
+            <li data-text="Hotline"><img src="./vendors/img/img-icon/telephone.svg" alt=""></li>
+            <li data-text="Instagram"><img src="./vendors/img/img-icon/instagram-2-1.svg" alt=""></li>
+
+        </ul>
+    </div>
+    <!--hết phần support sidebar-->
+</header>
+<!--hết phần header-->
+
+<!--phần carousel-->
+<div class="banner">
+    <div id="carouselExampleCaptions" class="carousel banner__carousel slide" data-ride="carousel">
+        <ol class="carousel-indicators">
+            <li data-target="#carouselExampleCaptions" data-slide-to="0" class="active"></li>
+            <li data-target="#carouselExampleCaptions" data-slide-to="1"></li>
+            <li data-target="#carouselExampleCaptions" data-slide-to="2"></li>
+        </ol>
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <!--ảnh slide-->
+                <img src="./vendors/img/imgbanner/arthur-martins-1466235-unsplash.jpg" class="d-block w-100" alt="...">
+                <!--caption cho từng slide-->
+                <div class="carousel-caption d-none d-md-block">
+                    <h3>First slide label</h3>
+                    <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
+                </div>
+                <!--hết phần caption cho từng slide-->
+            </div>
+            <div class="carousel-item">
+                <img src="./vendors/img/imgbanner/shaafi-ali-1463074-unsplash.jpg" class="d-block w-100" alt="...">
+                <div class="carousel-caption d-none d-md-block">
+                    <h3>Second slide label</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img src="./vendors/img/imgbanner/shika-chan-1466845-unsplash.jpg" class="d-block w-100" alt="...">
+                <div class="carousel-caption d-none d-md-block">
+                    <h3>Third slide label</h3>
+                    <p>Praesent commodo cursus magna, vel scelerisque nisl consectetur.</p>
+                </div>
+            </div>
+        </div>
+        <a class="carousel-control-prev banner__arrow" href="#carouselExampleCaptions" role="button" data-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"><i class="la la-angle-left"></i></span>
+            <span class="sr-only">Previous</span>
+        </a>
+        <a class="carousel-control-next banner__arrow" href="#carouselExampleCaptions" role="button" data-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"><i class="la la-angle-right"></i></span>
+            <span class="sr-only">Next</span>
+        </a>
+    </div>
+</div>
+<!--hết phần carousel-->
+<main>
+    <!-- intro-->
+    <div class="jumbotron jumbotron-fluid">
+        <div class="container">
+            <div class="jumbotron__header">
+                <ul class="nav ">
+                    <li class="nav-item active"><a href="" data-text="Giới thiệu chung">Giới thiệu chung</a></li>
+                    <li class="nav-item"><a href="" data-text="Giới thiệu ban lãnh đạo">Giới thiệu ban lãnh đạo </a></li>
+                    <li class="nav-item"><a href="" data-text="Tầm nhìn và sứ mệnh">Tầm nhìn và sứ mệnh</a></li>
+                    <li class="nav-item"><a href="" data-text="Thông tin thành viên">Thông tin thành viên</a></li>
+                </ul>
+            </div>
+            <div class="jumbotron__list">
+                <div class="jumbotron__tab tab-1">
+                    <p class="jumbotron__bg">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorem incidunt nihil nobis pariatur
+                        praesentium quaerat ratione totam ut velit vitae.</p>
+                    <p class="jumbotron__bg">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorem incidunt nihil nobis pariatur
+                        praesentium quaerat ratione totam ut velit vitae.</p>
+                </div>
+                <div class="jumbotron__tab tab-2">
+                    <p class="jumbotron__bg">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorem incidunt nihil nobis pariatur
+                        praesentium quaerat ratione totam ut velit vitae.</p>
+                </div>
+                <div class="jumbotron__tab tab-3">
+                    <p class="jumbotron__bg">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorem incidunt nihil nobis pariatur
+                        praesentium quaerat ratione totam ut velit vitae.</p>
+                </div>
+                <div class="jumbotron__tab tab-4">
+                    <p class="jumbotron__bg">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorem incidunt nihil nobis pariatur
+                        praesentium quaerat ratione totam ut velit vitae.</p>
+                </div>
+            </div>
+            <div class="jumbotron__more-info pt-4">
+                    <div class="btn jumbotron__more-btn">XEM THÊM</div>
+            </div>
+        </div>
+    </div>
+    <!-- intro end-->
+
+    <!--career-->
+    <div class="product pt-3">
+    <div class="">
+        <div class="product__title text-center pb-4">
+            <h2 class="display-5">Lĩnh Vực</h2>
+            <p class="text-uppercase"></p>
+        </div>
+        <div class="product__bg">
+            <div class="container">
+                <div class="product__list">
+                    <div class="row pb-2">
+                        <div class="col-12 col-md-6 pb2 " >
+                            <!--//a career-->
+                            <div class="product">
+                                <div class="product__cart"><img src="./vendors/img/img-career/jonas-blattermann-1462688-unsplash.jpg" alt="">
+                                    <div class="product__cart-name text-uppercase"><span>Xây dựng – Bất động sản</span></div>
+
+                                </div>
+                                <div class="product__info">
+                                    <h4>Lorem ipsum dolor.</h4>
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Commodi, unde.</p>
+                                </div>
+                            </div>
+                            <!--a career end-->
+                        </div>
+                        <div class="col-12 col-md-6 pb-2 " >
+                            <div class="product">
+                                <div class="product__cart"><img src="./vendors/img/img-career/jan-antonin-kolar-1462627-unsplash.jpg" alt="">
+                                    <div class="product__cart-name text-uppercase"><span>Thương mại – Sản xuất</span></div>
+                                </div>
+                                <div class="product__info">
+                                    <h4>Lorem ipsum dolor.</h4>
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Commodi, unde.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-12 col-md-6 pb-2 " >
+                            <div class="product">
+                                <div class="product__cart"><img src="./vendors/img/img-career/folco-masi-1462877-unsplash.jpg" alt="">
+                                    <div class="product__cart-name text-uppercase"><span>SDG LIFE</span></div>
+                                </div>
+                                <div class="product__info">
+                                    <h4>Lorem ipsum dolor.</h4>
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Commodi, unde.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-12 col-md-6 pb-2 " >
+                            <div class="product">
+                                <div class="product__cart"><img src="./vendors/img/img-career/jan-antonin-kolar-1462628-unsplash.jpg" alt="">
+                                    <div class="product__cart-name text-uppercase"><span>Truyền thông – Sự kiện</span></div>
+                                </div>
+                                <div class="product__info">
+                                    <h4>Lorem ipsum dolor.</h4>
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Commodi, unde.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+</div>
+    <!--career end-->
+    <!--new-->
+    <div class="container pt-3">
+        <div class="new">
+            <div class="row">
+                <div class="col-12 new__title text-center py-4">
+                    <h2 class="display-5">Tin Tức - Sự Kiện</h2>
+                </div>
+            </div>
+            <div class="grid-new">
+                    <div class="new">
+                        <img src="./vendors/img/img-career/jan-antonin-kolar-1462628-unsplash.jpg" alt="">
+                        <div class="new__bg"></div>
+
+                        <div class="new__info">
+                            <div class="new__info-title"><h6>Xây Dựng - Bất Động Sản</h6></div>
+                           <div> <h5>Lorem ipsum dolor sit.</h5></div>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolor, vero?</p>
+                        </div>
+                    </div>
+                    <div class="new">
+                        <img src="./vendors/img/img-career/jonas-blattermann-1462688-unsplash.jpg" alt="">
+                        <div class="new__bg"></div>
+
+                        <div class="new__info">
+                            <div class="new__info-title"><h6>Thương Mại - Sản Xuất</h6></div>
+                           <div> <h5>Lorem ipsum dolor sit.</h5></div>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolor, vero?</p>
+                        </div>
+                    </div>
+                    <div class="new">
+                        <img src="./vendors/img/img-career/folco-masi-1462877-unsplash.jpg" alt="">
+                        <div class="new__bg"></div>
+                        <div class="new__info">
+                            <div class="new__info-title"><h6>Xây Dựng - Bất Động Sản</h6></div>
+                           <div> <h5>Lorem ipsum dolor sit.</h5></div>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolor, vero?</p>
+                        </div>
+                    </div>
+                    <div class="new">
+                        <img src="./vendors/img/img-career/aperture-vintage-1461830-unsplash.jpg" alt="">
+                        <div class="new__bg"></div>
+
+                        <div class="new__info">
+                            <div class="new__info-title"><h6>Xây Dựng - Bất Động Sản</h6></div>
+                           <div> <h5>Lorem ipsum dolor sit.</h5></div>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolor, vero?</p>
+                        </div>
+                    </div>
+                    <div class="new">
+                        <img src="./vendors/img/img-career/felipe-bustillo-1461711-unsplash.jpg" alt="">
+                        <div class="new__bg"></div>
+                        <div class="new__info">
+                            <div class="new__info-title"><h6>Xây Dựng - Bất Động Sản</h6></div>
+                            <div> <h5>Lorem ipsum dolor sit.</h5></div>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolor, vero?</p>
+                        </div>
+                    </div>
+                    <div class="new">
+                            <img src="./vendors/img/img-career/folco-masi-1462877-unsplash.jpg" alt="">
+                            <div class="new__bg"></div>
+
+                            <div class="new__info">
+                                <div class="new__info-title"><h6>Xây Dựng - Bất Động Sản</h6></div>
+                               <div> <h5>Lorem ipsum dolor sit.</h5></div>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolor, vero?</p>
+                            </div>
+                        </div>
+            </div>
+        </div>
+    </div>
+    <!--new end-->
+    <!--project-->
+    <div class="container pt-3">
+        <div class="project">
+            <div class="row">
+                <div class="col-12 text-center py-4">
+                    <h2 class="display-5">Dự án tiêu biểu</h2>
+                </div>
+            </div>
+            <div class="row">
+                    <div class="col-12 col-lg-4 col-md-6">
+                        <div class="project__item">
+                            <img src="./vendors/img/img-career/aperture-vintage-1461830-unsplash.jpg" alt="">
+                            <div class="project__info">
+                                <h5>Lorem ipsum dolor.</h5>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dignissimos error iusto
+                                    maxime minima natus porro recusandae suscipit temporibus voluptatibus
+                                    voluptatum.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-lg-4 col-md-6">
+                        <div class="project__item">
+                            <img src="./vendors/img/img-career/aperture-vintage-1461830-unsplash.jpg" alt="">
+                            <div class="project__info">
+                                <h5>Lorem ipsum dolor.</h5>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dignissimos error iusto
+                                    maxime minima natus porro recusandae suscipit temporibus voluptatibus
+                                    voluptatum.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-lg-4 col-md-6">
+                        <div class="project__item">
+                            <img src="./vendors/img/img-career/aperture-vintage-1461830-unsplash.jpg" alt="">
+                            <div class="project__info">
+                                <h5>Lorem ipsum dolor.</h5>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dignissimos error iusto
+                                    maxime minima natus porro recusandae suscipit temporibus voluptatibus
+                                    voluptatum.</p>
+                            </div>
+                        </div>
+                    </div>
+            </div>
+        </div>
+    </div>
+    <!--project end-->
+    <!--partner-->
+    <div class="container-fluid pt-3">
+        <div class="partner">
+            <div class="row">
+                <div class="col-12 text-center py-4">
+                    <h2 class="display-5">Đối tác</h2>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-12 partner__list">
+                    <div class="partner__center">
+                        <div class="partner__item p-3"><img src="./vendors/img/bady-qb-1456311-unsplash.jpg" alt=""></div>
+                        <div class="partner__item p-3"><img src="./vendors/img/markus-spiske-1461587-unsplash.jpg" alt=""></div>
+                        <div class="partner__item p-3"><img src="./vendors/img/erik-mclean-1461198-unsplash.jpg" alt=""></div>
+                        <div class="partner__item p-3"><img src="./vendors/img/bady-qb-1456311-unsplash.jpg" alt=""></div>
+                        <div class="partner__item p-3"><img src="./vendors/img/markus-spiske-1461587-unsplash.jpg" alt=""></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--partner end-->
+    <!--contact-->
+    <div class="container-fluid p-0 mt-5">
+        <div class=" contact ">
+            <div class="contact__title text-center py-4">
+                <h2 class="display-5">Liên Hệ</h2>
+            </div>
+        </div>
+        <div class="map" id="map">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3919.3085429381927!2d106.71505451487833!3d10.787663992313913!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31752f53572f7f25%3A0xc99ba8245d1d608!2zMjM0IMSQxrDhu51uZyBOZ8O0IFThuqV0IFThu5EsIFBoxrDhu51uZyAyMiwgQsOsbmggVGjhuqFuaCwgSOG7kyBDaMOtIE1pbmgsIFZp4buHdCBOYW0!5e0!3m2!1svi!2s!4v1553701949183" width="100%" height="100%" frameborder="0" style="border:0" allowfullscreen></iframe>
+        </div>
+    </div>
+    <!--contact end-->
+
+</main>
+<!--phần footer-->
+<footer class="">
+    <div id="goTop">
+        <i class="la la-angle-double-up"></i>
+    </div>
+    <div class="container-fluid">
+        <div class="row footer__menu">
+            <div class="col-md-6 col-12 col-lg-3">
+                <h4>Giới Thiệu</h4>
+                <ul>
+                    <li>Giới thiệu chung</li>
+                    <li>Giới thiệu ban lãnh đạo</li>
+                    <li>Tầm nhìn và sứ mệnh</li>
+                    <li>Các công ty thành viên</li>
+                    <li>Tuyển dụng</li>
+                </ul>
+            </div>
+            <div class="col-md-6 col-12 col-lg-3">
+                <h4>Nghành nghề</h4>
+                <ul>
+                    <li>Xây dựng – Bất động sản</li>
+                    <li>Thương mại – Sản xuất</li>
+                    <li>SDG LIFE</li>
+                    <li>Truyền thông – Sự kiện</li>
+                </ul>
+            </div>
+            <div class="col-md-6 col-12 col-lg-3 footer__new">
+                <h4>Tin tức</h4>
+                <ul>
+                    <li class="footer__new-item"><img src="./vendors/img/bady-qb-1456311-unsplash.jpg" alt=""><div><p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Excepturi, facere!</p>
+                        <span><i class="la la-user"></i> by <u>Author</u></span>
+                    </div></li>
+                    <li class="footer__new-item"><img src="./vendors/img/bady-qb-1456311-unsplash.jpg" alt=""><div><p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Excepturi, facere!</p>
+                        <span><i class="la la-user"></i> by <u>Author</u></span>
+                    </div></li>
+                    <li class="footer__new-item"><img src="./vendors/img/bady-qb-1456311-unsplash.jpg" alt=""><div><p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Excepturi, facere!</p>
+                        <span><i class="la la-user"></i> by <u>Author</u></span>
+                    </div></li>
+                    <li class="footer__new-item"><img src="./vendors/img/bady-qb-1456311-unsplash.jpg" alt=""><div><p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Excepturi, facere!</p>
+                        <span><i class="la la-user"></i> by <u>Author</u></span>
+                    </div></li>
+                </ul>
+            </div>
+            <div class="col-md-6 col-12 col-lg-3 footer__social footer__menu">
+                <h4>Các trang liên kết</h4>
+                <ul>
+                    <li><a href=""> <i class="la la-facebook"></i> Facebook</a></li>
+                    <li><a href=""><i class="la la-twitter"></i> Twitter</a></li>
+                    <li><a href=""> <i class="la la-google"></i> Google </a></li>
+                    <li><a href=""><i class="la la-instagram"></i> Instagram</a></li>
+                </ul>
+
+            </div>
+        </div>
+        <div class="footer__address">
+            <div class="row ">
+                <div class="col-lg-6 col-12"><img src="./assets/img/logo.jpg" alt="">
+                    <p >Công ty cổ phần SDG Holdings  ( 234 Ngô Tất Tố, phường 22, quận Bình Thạnh, TP HCM )</p></div>
+                <div class="col-lg-6 col-12 d-flex align-items-center mt-2">
+                    <div class="m-auto footer__hot-line"><span>(038) 33232142</span><span><i class="la la-phone"></i></span></div>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-12 footer__copyright text-left py-4">
+                <em>@Copyright by DuyNguyen</em>
+            </div>
+        </div>
+    </div>
+</footer>
+<!--hết phần footer-->
+<script type="text/javascript" src="vendors/js/jquery-3.3.1.js"></script>
+<script type="text/javascript" src="vendors/js/bootstrap.js"></script>
+<script type="text/javascript" src="vendors/js/slick.js"></script>
+<script type="text/javascript" src="assets/js/index.js"></script>
+</body>
+</html>

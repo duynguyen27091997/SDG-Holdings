@@ -1,0 +1,58 @@
+:root{
+     --color-main :  #2980b9;
+     --color-second: #3498db ;
+     --color-gray: #bdc3c7;
+     --bg-white: #ffffff;
+}
+body,html{
+    overflow-x: hidden;
+    font-family: open-regular,sans-serif;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+a{
+    color: unset;
+}
+a:hover{
+    color: unset;
+    text-decoration: none;
+
+}
+::-webkit-scrollbar{
+    width: 10px;
+}
+::-webkit-scrollbar-thumb{
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+    background: var(--color-main);
+}
+.clear-fix{
+    clear: both;
+}
+@font-face {
+    font-family: open-bold ;
+    src: url("../../../vendors/fonts/OpenSans-Bold.ttf");
+}
+
+@font-face {
+    font-family: open-regular;
+    src: url("../../../vendors/fonts/OpenSans-Regular.ttf");
+
+}
+
+@font-face {
+    font-family: open-extra;
+    src: url("../../../vendors/fonts/OpenSans-ExtraBold.ttf");
+}
+
+@font-face {
+    font-family: Serif-font;
+    src: url(../../../vendors/fonts/LibreBaskerville-Regular.ttf);
+}
+@font-face {
+    font-family: open-light;
+    src: url("../../../vendors/fonts/OpenSans-Light.ttf");
+
+}

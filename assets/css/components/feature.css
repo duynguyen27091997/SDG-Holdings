@@ -1,0 +1,66 @@
+/*//css feature*/
+.feature h4{
+    border-bottom: 1px solid #999999;
+    font-size: 22px;
+}
+.feature__new li {
+    margin: 10px 0;
+    height: 90px;
+}
+.feature__new li:hover div p {
+    color: var(--color-main);
+}
+.feature__new li div {
+    padding: 0 10px;
+
+}
+.feature__new li div p,.feature__new li div span ,.feature__new li div i{
+    color:#212529;
+
+}
+
+.feature__new li div time{
+    font-size: 11px;
+}
+.feature__list ul{
+    padding-left: 0;
+}
+.feature__list li{
+    list-style: inside;
+    margin: 5px;
+    padding: 5px 10px;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    border-bottom: 1px solid #cccccc;
+    color: var(--color-main);
+}
+
+.feature__recent{
+    width: 100%;
+    list-style: none;
+    padding-left: 0;
+    display: flex;
+    margin-bottom: 0;
+}
+.feature__recent li{
+    flex: 33%;
+    padding: 7px;
+    cursor: pointer;
+    border: 1px solid #ccc;
+    text-align: center;
+    color: #ffffff;
+    background: var(--color-second);
+}
+.feature__recent li.clicked{
+    background: var(--color-main);
+}
+.feature__recent li:not(:last-child){
+    border-right: 0;
+}
+.feature__list2{
+    position: relative;
+}
+.feature__list2 .feature__new:not(:first-child){
+    display: none;
+}

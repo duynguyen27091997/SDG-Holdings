@@ -1,0 +1,80 @@
+/*css new*/
+.new{
+    position: relative;
+    padding: 0;
+    cursor: pointer;
+    overflow: hidden;
+}
+.new img{
+    height: 310px;
+    object-fit: cover;
+    -webkit-transition: .3s;
+    -moz-transition: .3s;
+    -ms-transition: .3s;
+    -o-transition: .3s;
+    transition: .3s;
+
+}
+.new__info{
+    position: absolute;
+    width: 100%;
+    bottom: 0;
+    left: 0;
+    color: #ffffff;
+    padding: 0 10px;
+}
+.new__info h6{
+    padding: 4px 7px;
+    display: inline-block;
+    background: var(--color-second);
+    color: #ffffff;
+}
+.new__info h5{
+    color: var(--color-second);
+}
+.new__info p{
+    font-size: 13px;
+}
+/*//css grid-new*/
+.grid-new{
+    width: 100%;
+    display: grid;
+    grid-gap: 10px;
+    grid-template-columns: repeat(4,1fr);
+    grid-template-rows: minmax(310px,auto);
+    overflow: hidden;
+}
+@media only screen and (min-width: 1200px) {
+    .grid-new .new:first-child{
+        grid-column: span 2;
+
+    }
+    .grid-new .new:nth-child(5){
+        grid-column: span 2;
+    }
+}
+@media only screen and (max-width: 1200px) {
+    .grid-new .new{
+        grid-column:span 2 ;
+    }
+}
+@media only screen and (max-width: 768px) {
+    .grid-new .new{
+        grid-column:span 4 ;
+    }
+}
+.new__bg{
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background: linear-gradient(to top,rgba(0,0,0,.7),transparent);
+}
+.new:hover>img{
+    -webkit-transform: scale(1.2) rotate(5deg);
+    -moz-transform: scale(1.2) rotate(5deg);
+    -ms-transform: scale(1.2) rotate(5deg);
+    -o-transform: scale(1.2) rotate(5deg);
+    transform: scale(1.2) rotate(5deg);
+}

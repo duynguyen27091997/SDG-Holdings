@@ -1,0 +1,38 @@
+.footer__new ul{
+    padding-left: 0;
+}
+.footer__new li{
+    display: flex;
+    height: 80px;
+    font-size: 13px;
+    overflow: hidden;
+    margin: 0 5px;
+}
+.footer__new li img{
+    width: 80px ;
+    height: 80px;
+}
+.footer__new li div{
+    padding:4px 10px;
+}
+.footer__new p{
+    height: 40px;
+    line-height: 20px;
+    margin-bottom: 0.5em;
+    overflow: hidden;
+    color: #ccc;
+    text-overflow: ellipsis;
+}
+.footer__new-item:hover p{
+    color: var(--color-main);
+}
+.footer__new li div span{
+    display: block;
+    font-size: 11px;
+    color: #999999;
+}
+.footer__new i{
+    color: #999999;
+    font-size: 14px;
+    padding: 0 5px;
+}

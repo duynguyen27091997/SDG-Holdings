@@ -1,0 +1,19 @@
+@import "./layouts/basic.css";
+@import "./layouts/header.css";
+@import "./layouts/footer.css";
+@import "./components/feature.css";
+.detail__tag ul{
+    display: flex;
+    width: 100%;
+}
+.detail__tag ul li {
+    padding: 3px 10px;
+    color: #5a6268;
+    border: 1px solid;
+    margin: 3px 1px;
+    cursor: pointer;
+}
+.detail__tag ul li:hover {
+    background: var(--color-main);
+    color: #ffffff;
+}
