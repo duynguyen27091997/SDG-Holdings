@@ -34,5 +34,7 @@ $(function () {
     $(this).addClass("clicked");
     let index = li.index($(this))+1;
     $(`.feature__new.tab${index}`).show().siblings().hide();
+    //category change listview
+
 });
 });

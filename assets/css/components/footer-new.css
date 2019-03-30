@@ -3,10 +3,11 @@
 }
 .footer__new li{
     display: flex;
-    height: 80px;
+    height: 90px;
     font-size: 13px;
     overflow: hidden;
     margin: 0 5px;
+    cursor: pointer;
 }
 .footer__new li img{
     width: 80px ;
@@ -15,15 +16,18 @@
 .footer__new li div{
     padding:4px 10px;
 }
-.footer__new p{
+.footer__new h6{
     height: 40px;
     line-height: 20px;
+    font-size: 13px;
     margin-bottom: 0.5em;
     overflow: hidden;
-    color: #ccc;
     text-overflow: ellipsis;
 }
-.footer__new-item:hover p{
+footer .footer__new h6{
+    color: #ffffff;
+}
+.footer__new-item:hover h6{
     color: var(--color-main);
 }
 .footer__new li div span{
@@ -35,4 +39,9 @@
     color: #999999;
     font-size: 14px;
     padding: 0 5px;
+}
+.footer__new li div time{
+    font-size: 11px;
+    color: #999999;
+
 }
