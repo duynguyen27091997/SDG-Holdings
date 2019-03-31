@@ -56,3 +56,6 @@ a:hover{
     src: url("../../../vendors/fonts/OpenSans-Light.ttf");
 
 }
+main h4{
+    color: var(--color-main);
+}

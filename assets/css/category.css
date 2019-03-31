@@ -2,6 +2,7 @@
 @import "./layouts/header.css";
 @import "./layouts/footer.css";
 @import "./components/feature.css";
+@import "./components/new.css";
 .detail__tag ul{
     display: flex;
     width: 100%;
@@ -17,3 +18,58 @@
     background: var(--color-main);
     color: #ffffff;
 }
+.category ul, .category ul li div{
+    padding: 0;
+}
+.category ul li div:nth-child(2){
+    padding-left: 15px;
+}
+.category__item{
+    display: flex;
+    cursor: pointer;
+    margin-bottom: 15px;
+}
+
+.category__item h2{
+    font-weight: 600;
+    line-height: 24px;
+    margin-bottom: 2px;
+    margin-top: 10px;
+    font-size: 19px;
+    white-space: nowrap;
+    overflow: hidden;
+    -ms-text-overflow: ellipsis;
+    text-overflow: ellipsis;
+    color: var(--color-main);
+
+}
+.category__item p{
+    height: calc(24px * 4);
+    font-size: 15px;
+    overflow: hidden;
+
+}
+.category__item span{
+    font-size: 12px;
+    display: inline-block;
+    margin: 5px 7px ;
+}
+.article-img img{
+    height: 100%;
+    object-fit: cover;
+}
+.page-link{
+    color: var(--color-main);
+}
+.page-link:focus{
+    box-shadow: none;
+}
+.page-link:hover{
+    background: var(--color-second);
+    color: #ffffff;
+}
+.page-item.current .page-link{
+    background: var(--color-main);
+    color: #ffffff;
+}
+

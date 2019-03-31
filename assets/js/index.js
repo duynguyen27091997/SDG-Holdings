@@ -15,6 +15,7 @@ $(function () {
     });
     //dropdown menu side and hide menu side
     $(".header__dropdown").click(function () {
+        $(this).children("i").toggleClass("la-navicon").toggleClass("la-close");
         $(".header__list-right").slideToggle();
     });
     $(window).resize(function () {
